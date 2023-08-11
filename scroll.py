@@ -3,16 +3,17 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-driver = webdriver.Remote(
-   command_executor='http://127.0.0.1:4444/wd/hub',
-   options=webdriver.FirefoxOptions()
-)
-#driver.get("https://www.tiktok.com/login/")
-driver.get("https://www.tiktok.com/@angel_movie612/video/7261607929554406699")
-print("login")
+
 
 
 def autoscroll(scrolls):
+    driver = webdriver.Remote(
+   command_executor='http://127.0.0.1:4444/wd/hub',
+   options=webdriver.FirefoxOptions()
+)
+    #driver.get("https://www.tiktok.com/login/")
+    driver.get("https://www.tiktok.com/@angel_movie612/video/7261607929554406699")
+    print("login")
     time.sleep(10)
     for x in range (scrolls):
         
@@ -21,4 +22,16 @@ def autoscroll(scrolls):
     print(videoDuration)
     driver.quit()
     
-autoscroll(5)
+#autoscroll(5)
+import webbot
+from webbot import Browser
+web = Browser()
+web.go_to('google.com') 
+web.type('hello its me')  # or web.press(web.Key.SHIFT + 'hello its me')
+web.press(web.Key.ENTER)
+web.go_back()
+web.click('Sign in')
+web.type('mymail@gmail.com' , into='Email')
+web.click('NEXT' , tag='span')
+web.type('mypassword' , into='Password' , id='passwordFieldId')
+web.click('NEXT' , tag='span') #
