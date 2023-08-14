@@ -188,3 +188,391 @@ Dynamically enable window occlusion 1
 JavaScript error: resource://gre/actors/AudioPlaybackChild.sys.mjs, line 17: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 [Parent 7372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
 [GPU 18292, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692037997802	geckodriver	INFO	Listening on 127.0.0.1:51483
+1692038000902	mozrunner::runner	INFO	Running command: "C:\\Users\\alicia\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" " ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alicia\\AppData\\Local\\Temp\\rust_mozprofile7jtdPk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692038002041	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692038002169	Marionette	INFO	Listening on port 51497
+WebDriver BiDi listening on ws://127.0.0.1:51484
+Read port: 51497
+1692038002494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51484/devtools/browser/0ecd013f-7d9a-4b9f-ba0f-5624c8b9a423
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl, line 415: Script terminated by timeout at:
+_.Yk@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:415:21
+V3g<@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:1232:379
+_.k.dSa@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:421:217
+_.k.dispatchEvent@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:419:363
+_.k.xFe@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:650:270
+Hta@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:417:292
+Eta@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:417:341
+b@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwCd3BgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAGPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8FBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oHsJXaMpUf7Js40LHACwVlLYQqKMQ/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:413:49
+
+1692038045201	Marionette	INFO	Stopped listening on port 51497
+Dynamically enable window occlusion 1
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 22996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16600, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692038059621	geckodriver	INFO	Listening on 127.0.0.1:51574
+1692038062663	mozrunner::runner	INFO	Running command: "C:\\Users\\alicia\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" " ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alicia\\AppData\\Local\\Temp\\rust_mozprofileaQrD80"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692038063107	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692038063214	Marionette	INFO	Listening on port 51582
+WebDriver BiDi listening on ws://127.0.0.1:51575
+Read port: 51582
+1692038063592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51575/devtools/browser/bcf7bad9-9fc8-45f8-a37d-3920f3c5d792
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js, line 858: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:858:131
+Dx<@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:1862:98
+Ik/<@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:842:63
+
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwGcnBgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAOPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8HBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oGU2t9u-mxVbeAwVa7m6B8jmK-lRA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl, line 413: Script terminated by timeout at:
+b@https://www.google.com/xjs/_/js/k=xjs.s.en.8GVF9i2ImS4.O/am=CghAQAAAAAAQAIAoIBwCsAEMwGcnBgAAEABAAQAAAAB4RQBgACB4_0kaAAIChAAYADFwA4ASSsAOAAAAOPsBAAAAAIA4AMYLACgEgAMhoAAEAAAAQB4AnAcIDiYsAAAAAAAAAAAAgIBLEAwOSI8HBEAAAAAAAAAAAACAVDJ5OQABADA/d=1/ed=1/dg=2/rs=ACT90oGU2t9u-mxVbeAwVa7m6B8jmK-lRA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe,MdUzUe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;vfVwPd:OXTqFb;VGRfx:VFqbr;BjwMce:cXX2Wb;pNsl2d:j9Yuyc;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;VN6jIc:ddQyuf;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;zxnPse:GkRiKb;xqZiqf:wmnU7d;lkq0A:Z0MWEf;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:413:40
+
+JavaScript warning: https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js, line 842: Script terminated by timeout at:
+Ik/<@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:842:47
+
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.error: "Unable to find target with innerWindowId:12884901900"
+console.error: "Unable to find target with innerWindowId:12884901900"
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: Script terminated by timeout at:
+_0x327684@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:9732
+report@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:94075
+n<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/plugins/common-monitors.1.5.0.js:1:17994
+l@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/plugins/common-monitors.1.5.0.js:1:7399
+J/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/plugins/common-monitors.1.5.0.js:1:7891
+_0x2c88c6</_0x3e7cac/_0x326eea</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:98902
+_0x2c88c6</_0x5ea2d8/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:21130
+_0x2c88c6</_0x3e7cac/_0x326eea<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:98736
+_0x2c88c6</_0x3e7cac/_0x326eea</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:98555
+_0x2c88c6</_0x3e7cac/_0x326eea<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:98360
+_0x2c88c6</_0x3e7cac/_0x1dd620/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:95520
+_0x1dd620@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:95475
+provide@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:93562
+_0x2c88c6</_0x3e7cac/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:98094
+_0xcb0c6e@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:7435
+@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/plugins/common-monitors.1.5.0.js:1:18046
+on@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:94914
+@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/plugins/common-monitors.1.5.0.js:1:17755
+_0x4cd0bd@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:75791
+_0x2c88c6</_0x3bce9b/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:75478
+_0x2c88c6</_0x3bce9b/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js:1:75405
+
+1692038649866	Marionette	INFO	Stopped listening on port 51582
+Dynamically enable window occlusion 1
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11260, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6740, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692039504109	geckodriver	INFO	Listening on 127.0.0.1:52134
+1692039507154	mozrunner::runner	INFO	Running command: "C:\\Users\\alicia\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" " ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alicia\\AppData\\Local\\Temp\\rust_mozprofileXF3L0k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692039508081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692039508294	Marionette	INFO	Listening on port 52142
+WebDriver BiDi listening on ws://127.0.0.1:52135
+Read port: 52142
+1692039508869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52135/devtools/browser/15fafcb4-6abd-42c0-8a87-e3e369e76e06
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js, line 35: Script terminated by timeout at:
+sy@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:120256
+82446/T</this.handleSDK/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:111804
+25732/v/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/vendor.da13d6c9f3f023a15853.js:2:176549
+v@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/vendor.da13d6c9f3f023a15853.js:2:176283
+82446/T</this.handleSDK@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:111553
+82446/runFetch/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:114844
+25732/v/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/vendor.da13d6c9f3f023a15853.js:2:176549
+v@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/vendor.da13d6c9f3f023a15853.js:2:176283
+runFetch@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:114740
+post@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:114058
+82446/A/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/webapp-desktop.1eae5f532cf1862b3ef9.js:35:116796
+28952/n.prototype._trySubscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1975
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1897
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+u@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:13329
+9082/f/v<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:13496
+28952/n.prototype._trySubscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1975
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1897
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+55823/o/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25167
+29865/i/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:38631
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1867
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+b@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25937
+p@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25875
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+69290/p/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:16763
+28952/n.prototype._trySubscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1975
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1897
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+90950/s/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:26123
+90950/s/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:26183
+29865/i/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:38631
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1867
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+55823/o/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25167
+29865/i/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:38631
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1867
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+b@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25937
+p@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25875
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+55823/o/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25202
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+98518/o/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:22851
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+98518/o/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:22851
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+63681/r.prototype.next/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:4808
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+63681/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:4599
+dispatch@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js:1:12247
+87613/bt/this.dispatchers[t]@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js:1:13708
+37078/Jl</_<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/login-modal.5cb122f37e3a2ad8b711.js:1:239740
+37078/Jl</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/login-modal.5cb122f37e3a2ad8b711.js:1:239776
+Uu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:108420
+56800/t.unstable_runWithPriority@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:143148
+Ha@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49055
+zu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:107883
+yu@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:99411
+46955/qa/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49278
+56800/t.unstable_runWithPriority@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:143148
+Ha@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49055
+qa@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49225
+Za@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:49158
+du@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:96891
+Ol@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-react.6c0d59e43203dd09a7d1.js:2:68654
+80824/d/p<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js:1:23281
+21249/c/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:29986
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+98518/o/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:22851
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+63681/r.prototype.next/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:4808
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+63681/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:4599
+60552/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:3470
+dispatch@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js:1:12213
+next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-sigi.9cfbf33dbca2627d4be3.js:1:12600
+97035/n.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:8205
+97035/r.prototype._next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7809
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+4389/u/</</u<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:28898
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+90950/s/</b/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25972
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+90950/s/</b/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25972
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+97035/r.prototype._next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7809
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+69290/p/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:16763
+28952/n.prototype._trySubscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1975
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1897
+o@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:36641
+28952/n.prototype.subscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1812
+17620/c/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:22619
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+55823/o/</<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25202
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+97035/r.prototype._next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7809
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+90950/s/</b/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:25972
+34417/r/c._next<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:19448
+97035/r.prototype.next@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:7426
+69290/p/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:16763
+28952/n.prototype._trySubscribe@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1975
+28952/n.prototype.subscribe/f<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/npm-rxjs.185d17153754128aa004.js:1:1897
+
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk_lite/plugins/perf.1.2.26.sg.js, line 1: Script terminated by timeout at:
+u/<@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk_lite/plugins/perf.1.2.26.sg.js:1:2265
+r@https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk_lite/plugins/perf.1.2.26.sg.js:1:1984
+
+1692039541106	Marionette	INFO	Stopped listening on port 52142
+Dynamically enable window occlusion 1
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.error: (new Error("IndexedDB: main/nimbus-desktop-experiments getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 20712, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 23408, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackground::Msg_PVerifySSLServerCertConstructor Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1692039548349	geckodriver	INFO	Listening on 127.0.0.1:52240
+1692039551433	mozrunner::runner	INFO	Running command: "C:\\Users\\alicia\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" " ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alicia\\AppData\\Local\\Temp\\rust_mozprofileVlfv37"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692039552218	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692039552355	Marionette	INFO	Listening on port 52249
+WebDriver BiDi listening on ws://127.0.0.1:52241
+Read port: 52249
+1692039552896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52241/devtools/browser/7ac0924f-808d-4549-bcf9-b7307fcbe303
+1692039571587	Marionette	INFO	Stopped listening on port 52249
+Dynamically enable window occlusion 1
+[Parent 25516, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6080, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 25516, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6080, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 25516, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6080, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 25516, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6080, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 25516, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6080, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692039578144	geckodriver	INFO	Listening on 127.0.0.1:52279
+1692039581204	mozrunner::runner	INFO	Running command: "C:\\Users\\alicia\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" " ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alicia\\AppData\\Local\\Temp\\rust_mozprofileEZr7Nz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692039581648	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692039581757	Marionette	INFO	Listening on port 52288
+WebDriver BiDi listening on ws://127.0.0.1:52280
+Read port: 52288
+1692039582132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52280/devtools/browser/0adc1e24-0633-4ea9-8d79-0fd2cc67ba44
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.63/webmssdk_ex.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1692039642726	Marionette	INFO	Stopped listening on port 52288
+Dynamically enable window occlusion 1
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+[Parent 1188, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 12948, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1692039667391	geckodriver	INFO	Listening on 127.0.0.1:52378
+1692039670458	mozrunner::runner	INFO	Running command: "C:\\Users\\alicia\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" " ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\alicia\\AppData\\Local\\Temp\\rust_mozprofile4IxBje"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692039670897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692039671007	Marionette	INFO	Listening on port 52386
+WebDriver BiDi listening on ws://127.0.0.1:52379
+Read port: 52386
+1692039671514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52379/devtools/browser/798c6926-b81c-4832-a1f4-ac79effe632b
+JavaScript warning: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.57/webmssdk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692039680986	Marionette	INFO	Stopped listening on port 52386
+Dynamically enable window occlusion 1
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 26200, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10788, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
