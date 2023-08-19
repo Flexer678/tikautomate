@@ -21,6 +21,7 @@ def autoscroll(scrolls):
         videoDuration = driver.find_element(By.XPATH,'/html/body/div[1]/div[2]/div[2]/div/div[2]/div/div[1]/div[1]/div[6]/div[2]/div[1]/div[2]')
     print(videoDuration)
     driver.quit()
+    print("bot quited")
     
 #autoscroll(5)
 import webbot
@@ -35,3 +36,31 @@ web.type('mymail@gmail.com' , into='Email')
 web.click('NEXT' , tag='span')
 web.type('mypassword' , into='Password' , id='passwordFieldId')
 web.click('NEXT' , tag='span') #
+
+'''
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+class GoogleSearch:
+    def __init__(self):
+        self.driver = webdriver.Chrome()
+
+    def search(self, query):
+        self.driver.get("https://www.google.com")
+        search_input = self.driver.find_element_by_name("q")
+        search_input.clear()
+        search_input.send_keys(query)
+        search_input.send_keys(Keys.RETURN)
+
+    def close(self):
+        self.driver.quit()
+
+# Create an instance of GoogleSearch class
+google = GoogleSearch()
+
+# Perform a search
+google.search("OpenAI")
+
+# Close the browser
+google.close()
+'''
