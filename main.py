@@ -8,7 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium_stealth import stealth
-import undetected_chromedriver.v2 as uc
+import undetected_chromedriver as uc
 #remove .v2
 import time
 import random
@@ -36,7 +36,7 @@ class tiktokbot:
         self.islogedIn = False
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('--proxy-bypass-list=<-loopback>')
-        self.driver = uc.Chrome(options=self.options, use_subprocess=True,)
+        self.driver = uc.Chrome(options=self.options, use_subprocess=True)
         stealth(self.driver,
                 languages=["en-US", "en"],
                 vendor="Google Inc.",
@@ -49,7 +49,9 @@ class tiktokbot:
        
        
         
-    
+    #if only you had the patience and consistency 
+    # if only i read my code to make sure it worked
+    #chrome --v114
     
     
     
