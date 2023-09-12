@@ -117,8 +117,8 @@ class tiktokbot(BaseCase):
         if self.islogedIn :
             self.driver.get("https://www.tiktok.com/foryou")
             #WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="one-column-item-2"]' )))            
-            canvas = self.driver.find_element("xpath", tiktokbot.scrollVariables[0])     
-            canvas.click()
+           # canvas = self.driver.find_element("xpath",'//*[@id="one-column-item-0"]/canvas')     
+           # canvas.click()
             print("canvas clicked")
             time.sleep(5)
             for x in range(times):
@@ -199,14 +199,14 @@ class tiktokbot(BaseCase):
 
 
 bot = tiktokbot(email=open("logindetails/email.txt", 'r').read(),password=open("logindetails/password.txt", 'r').read(), profile="Default", directory="C:/Users/user/AppData/Local/Google/Chrome/User Data")
-#bot.login()
+bot.login()
 
 files ={
     'r.mp4': "hello there"
 }
                                                
-bot.upload("dd")
-bot.quit
+bot.autoscroll(150,True)
+
 #bot.autoscroll(50,True)
 
 #https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3C:\Users\user\Downloads\video old\stuff.mp4
