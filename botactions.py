@@ -8,8 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium_stealth import stealth
 import undetected_chromedriver as uc
-from pynput.keyboard import Key, Controller
-from pynput import mouse
 from seleniumbase import BaseCase
 import time
 import random
