@@ -204,7 +204,8 @@ class tiktokbot(BaseCase):
                 if choice == True:
                     if random.randint(0,1) == 1:
                         tiktokbot.comment
-                    time.sleep(get_time - random.randint(1,3))
+                    
+                    time.sleep(get_time + random.randint(1,get_time))
                     print("about", get_time, "seconds till scroll")
                     tiktokbot.clickInteraction(self,random.randint(0,2))
   
@@ -213,8 +214,8 @@ class tiktokbot(BaseCase):
                     
             
                 else:
-                     time.sleep(random.randint(1,5))
-                     print("ignored video")
+                    time.sleep(random.randint(1,4))
+                    print("ignored video")
                 downbutton.click()
         
         else:
