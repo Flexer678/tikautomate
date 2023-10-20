@@ -13,7 +13,7 @@ import time
 import random
 
 
-class tiktokbot(BaseCase):
+class Tiktokbot(BaseCase):
     
     timers = [
         "0", "2", "1", "3", "4", "5", "6", "7", "8", "9"
@@ -32,10 +32,19 @@ class tiktokbot(BaseCase):
         '//*[@id="app"]/div[2]/div[4]/div/div[1]/div[3]/div[2]/div[2]'
     ]
     
+    scrollVariables1 = {
+        "canvas": '//*[@id="one-column-item-0"]/div'
+    }
+    
     scrollVariablesInteraction = {
-        "like_button" : '//*[@id="app"]/div[2]/div[4]/div/div[2]/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/button[1]/span' ,
+        "like_button" : '//*[@id="app"]/div[2]/div[4]/div/div[2]/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/button[1]' ,
         "save_button": '//*[@id="app"]/div[2]/div[4]/div/div[2]/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/button[3]/span',
         "comment_field": '//*[@id="app"]/div[2]/div[4]/div/div[2]/div[2]/div/div[1]/div/div[1]/div/div/div/div/div/div/div/span/span',
+    }
+    
+    followInteractionVariables ={
+        "follow_link" : '//*[@id="app"]/div[2]/div[4]/div/div[2]/div[1]/div/div[1]/div[1]/div[1]/a[2]',
+        "follow_btn" : '//*[@id="app"]/div[2]/div[4]/div/div[2]/div[1]/div/div[1]/div[1]/div[1]/div/button'
     }
     
     uploadVariables ={
@@ -51,7 +60,7 @@ class tiktokbot(BaseCase):
         self.islogedIn = True
         self.options = webdriver.ChromeOptions()
         self.profile = profile
-        self.keyboard = Controller()
+    
         self.directory =directory
         self.options.add_argument("--start-maximized")
         self.options.add_argument('--user-data-dir='+self.directory)
@@ -75,7 +84,7 @@ class tiktokbot(BaseCase):
     
     def shoutout():
         print("shout out to Zinkq on github")
-    
+        
     def getBot(self):
         return self.driver
 
@@ -86,29 +95,29 @@ class tiktokbot(BaseCase):
             print("WORKING")
             self.driver.get("https://www.tiktok.com/foryou")
         else:
-            self.driver.get(tiktokbot.loginVariables[0])
+            self.driver.get(Tiktokbot.loginVariables[0])
             try:
-                WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH,  tiktokbot.loginVariables[1])))            
-                fieldForm =self.driver.find_element("xpath", tiktokbot.loginVariables[1])
+                WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH,  Tiktokbot.loginVariables[1])))            
+                fieldForm =self.driver.find_element("xpath", Tiktokbot.loginVariables[1])
             except:
                 self.driver.quit()
             finally:
                 for i in self.email:
                     fieldForm.send_keys(i)
-                    time.sleep(float("0."+random.choice(tiktokbot.timers[0:4]) + random.choice(tiktokbot.timers[0:7]) + random.choice(tiktokbot.timers[0:9])))
+                    time.sleep(float("0."+random.choice(Tiktokbot.timers[0:4]) + random.choice(Tiktokbot.timers[0:7]) + random.choice(Tiktokbot.timers[0:9])))
 
             
-            fieldForm = self.driver.find_element("xpath",  tiktokbot.loginVariables[2])
+            fieldForm = self.driver.find_element("xpath",  Tiktokbot.loginVariables[2])
             for i in self.password:
                 fieldForm.send_keys(i)
-                time.sleep(float("0."+random.choice(tiktokbot.timers[0:4]) + random.choice(tiktokbot.timers[0:7]) + random.choice(tiktokbot.timers[0:9])))
+                time.sleep(float("0."+random.choice(Tiktokbot.timers[0:4]) + random.choice(Tiktokbot.timers[0:7]) + random.choice(Tiktokbot.timers[0:9])))
                 
             try:
-                    WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  tiktokbot.loginVariables[3])))
+                    WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  Tiktokbot.loginVariables[3])))
             except:
                     self.driver.quit()
             finally:
-                    button = self.driver.find_element("xpath",  tiktokbot.loginVariables[3])
+                    button = self.driver.find_element("xpath",  Tiktokbot.loginVariables[3])
                     button.clickandhold()
                     self.islogedIn = True
 
@@ -117,7 +126,7 @@ class tiktokbot(BaseCase):
    
 
     def getComments():
-        with open(tiktokbot.commentfile,  encoding='utf-8-sig') as file:
+        with open(Tiktokbot.commentfile,  encoding='utf-8-sig') as file:
             lines = len(file.readlines())
 
         book  = random.randrange(2,lines)
@@ -134,8 +143,8 @@ class tiktokbot(BaseCase):
         # 0 to save ,1 to like 
         if type == 1:
             try:
-                WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  tiktokbot.scrollVariablesInteraction['like_button'])))
-                Likebutton = self.driver.find_element("xpath", tiktokbot.scrollVariablesInteraction["like_button"])
+                WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  Tiktokbot.scrollVariablesInteraction['like_button'])))
+                Likebutton = self.driver.find_element("xpath", Tiktokbot.scrollVariablesInteraction["like_button"])
                 Likebutton.click()
                 
                 print("video liked")
@@ -143,8 +152,8 @@ class tiktokbot(BaseCase):
                 print("unable to like video")
         elif type == 2:
             try:
-                WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  tiktokbot.scrollVariablesInteraction['like_button'])))
-                Likebutton = self.driver.find_element("xpath", tiktokbot.scrollVariablesInteraction["save_button"])
+                WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  Tiktokbot.scrollVariablesInteraction['like_button'])))
+                Likebutton = self.driver.find_element("xpath", Tiktokbot.scrollVariablesInteraction["save_button"])
                 Likebutton.click()
                 print("video saved")
             except:
@@ -158,12 +167,12 @@ class tiktokbot(BaseCase):
     def comment(self):
         print("commenting")
         try:
-            WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  tiktokbot.scrollVariablesInteraction['comment_field'])))
-            commentform = self.driver.find_element("xpath", tiktokbot.scrollVariablesInteraction["comment_field"])
-            for i in tiktokbot.getcomments():
+            WebDriverWait(self.driver, 3).until(EC.presence_of_element_located((By.XPATH,  Tiktokbot.scrollVariablesInteraction['comment_field'])))
+            commentform = self.driver.find_element("xpath", Tiktokbot.scrollVariablesInteraction["comment_field"])
+            for i in Tiktokbot.getcomments():
                 commentform.send_keys(i)
-                time.sleep(float("0."+random.choice(tiktokbot.timers[0:4]) + random.choice(tiktokbot.timers[0:7]) + random.choice(tiktokbot.timers[0:9])))
-                self.keyboard.press(Key.enter)
+                time.sleep(float("0."+random.choice(Tiktokbot.timers[0:4]) + random.choice(Tiktokbot.timers[0:7]) + random.choice(Tiktokbot.timers[0:9])))
+             
             print("commenting on this video")
         except:
             print("trying to comment")
@@ -175,14 +184,16 @@ class tiktokbot(BaseCase):
         self.islogedIn = True
         if self.islogedIn :
             self.driver.get("https://www.tiktok.com/foryou")
-            #WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="one-column-item-2"]' )))            
-           # canvas = self.driver.find_element("xpath",'//*[@id="one-column-item-0"]/canvas')     
-           # canvas.click()
+            WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.XPATH, '//*[@id="one-column-item-2"]' )))            
+            canvas = self.driver.find_element("xpath", Tiktokbot.scrollVariables1['canvas'])     
+            canvas.click()
             print("canvas clicked")
+     
             
            
             time.sleep(5)
             for x in range(times):
+                
             #waits for the browser to load
                 self.driver.implicitly_wait(2)
                 WebDriverWait(self.driver,10)
@@ -190,32 +201,33 @@ class tiktokbot(BaseCase):
                 Vidlength = ""
                 while downbutton == "" and Vidlength == "":
                     try:
-                        downbutton = self.driver.find_element("xpath", tiktokbot.scrollVariables[1])
-                        Vidlength = self.driver.find_element("xpath", tiktokbot.scrollVariables[2]).get_attribute("innerText")
+                        downbutton = self.driver.find_element("xpath", Tiktokbot.scrollVariables[1])
+                        Vidlength = self.driver.find_element("xpath", Tiktokbot.scrollVariables[2]).get_attribute("innerText")
                         sleep_duration = str(Vidlength[Vidlength.find("/")+1: len(Vidlength)])
                         get_time = (int(sleep_duration[0:2])*60) + int(sleep_duration[3:len(sleep_duration)])
                     except:
                         time.sleep(30)
+                        print("\n unable to find some elements \n trying again \n \n")
                 
                 
-                choice = random.choice(tiktokbot.list)
-                if choice == True:
-                    if random.randint(0,1) == 1:
-                        tiktokbot.comment
-                    
-                    time.sleep(get_time + random.randint(1,get_time))
+               
+                
+                    time.sleep(get_time)
                     print("about", get_time, "seconds till scroll")
-                    tiktokbot.clickInteraction(self,random.randint(0,2))
+                   
   
                    
                    
                     
             
-                else:
-                    time.sleep(random.randint(1,4))
-                    print("ignored video")
-                downbutton.click()
-        
+              
+                try:
+                    downbutton.click()
+                    
+                        
+                except:
+                    print("unable to click button as element is not interactable \n trying again in a few seconds")
+                print("scrolled for the "+ str(x) + "time")
         else:
             print("ur not logged in")
             
@@ -226,52 +238,32 @@ class tiktokbot(BaseCase):
     def wait(self,sleep):
         time.sleep(sleep)
         
-        
-
+    def quit_bot(self):
+        print("working here")
+        self.driver.quit()
+        print("bot quitted")
         
     #currently not working
-    def upload(self,files):
-        if self.islogedIn:
-            self.driver.get(tiktokbot.uploadVariables["upload_link"])
-            time.sleep(3)
-            self.driver.implicitly_wait(10) 
-            
-            username = "C:\\Users\\user\\Downloads\\video old\\stuff.mp4"
-            self.driver.execute_script("document.querySelector('.jsx-2751257330').style.display='block'")
-            time.sleep(3)
-            self.driver.implicitly_wait(10) 
-            
-
-            
-            button = self.driver.find_element("xpath",'//*[@id="root"]/div/div/div/div/div/div/div/div/div[5]')
-            button.click()
-            time.sleep(3)
-            self.driver.implicitly_wait(2)
-            self.keyboard.press(Key.enter)
-            self.keyboard.release(Key.enter)
-            self.keyboard.type("C:\\Users\\user\\Downloads\\video old\\stuff.mp4")
-            self.keyboard.press(Key.enter)
-            self.keyboard.release(Key.enter)
-            self.driver.implicitly_wait(10)
-            
-            
-        else:
-            print("not logged in")
-    def quit(self):
-        self.driver.quit()
-     
+ 
 
 
 
 
-bot = tiktokbot(email=open("logindetails/email.txt", 'r').read(),password=open("logindetails/password.txt", 'r').read(), profile="Default", directory="C:/Users/user/AppData/Local/Google/Chrome/User Data")
-bot.login()
+
+#future me, note email and password is a gimmic and sometimes work
+#directory is the user data
+
+#bot = Tiktokbot(email=open("logindetails/email.txt", 'r').read(),password=open("logindetails/password.txt", 'r').read(), profile="Default", directory="C:/Users/user/AppData/Local/Google/Chrome/User Data")
 
 files ={
     'r.mp4': "hello there"
 }
                                                
-bot.autoscroll(150,True)
+#bot.autoscroll(500,True)
 
 #bot.autoscroll(50,True)
 #https://stackoverflow.com/questions/52394408/how-to-use-chrome-profile-in-selenium-webdriver-python-3C:\Users\user\Downloads\video old\stuff.mp4
+
+#get the thing to reload after reaching the end
+#let the canvas be clicked 
+# make a ui interface so that you can sell the ever living shit out of it.
